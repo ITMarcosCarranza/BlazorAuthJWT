@@ -1,6 +1,7 @@
 ﻿@page "/fetchdata"
 @using BlazorJWT.Shared
 @inject HttpClient Http
+@attribute [Authorize(Roles = "Admin")]
 
 <PageTitle>Weather forecast</PageTitle>
 

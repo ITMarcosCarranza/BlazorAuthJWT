@@ -11,5 +11,7 @@ namespace BlazorJWT.Shared
         public string Token { get; set; }
 
         public bool isValid { get; set; }
+
+        public string Error { get; set; }
     }
 }
